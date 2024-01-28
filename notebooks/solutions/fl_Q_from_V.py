@@ -1,6 +1,6 @@
 import numpy as np
 
-def Q_from_V(env,V):
+def Q_from_V2(env,V):
     gamma = 0.9
     Q = np.zeros((env.observation_space.n, env.action_space.n))
     for s in range(env.observation_space.n):

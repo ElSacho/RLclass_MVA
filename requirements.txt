@@ -1,0 +1,6 @@
+torch
+numpy
+gym
+gymnasium
+matplotlib
+matplotlib-inline
